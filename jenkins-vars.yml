@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-onlyoffice
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'ONLYOFFICE'
+  - EXT_REPO = 'DesktopEditors'
+  - BUILD_VERSION_ARG = 'ONLYOFFICE_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-onlyoffice'
+  - CONTAINER_NAME = 'onlyoffice'
+  - DOCKERHUB_IMAGE = 'linuxserver/onlyoffice'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/onlyoffice'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/onlyoffice'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3001'
+  - CI_SSL = 'true'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
