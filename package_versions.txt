@@ -1016,7 +1016,7 @@ nginx                                                                         1.
 nginx-common                                                                  1.26.3-3+deb13u1                        deb                         
 nvidia-cuda-nvrtc                                                             13.1.80                                 python                      
 ocl-icd-libopencl1                                                            2.3.3-1                                 deb                         
-onlyoffice-desktopeditors                                                     9.2.0-100                               deb                         
+onlyoffice-desktopeditors                                                     9.2.1-43                                deb                         
 openbox                                                                       3.6.1-12+b2                             deb                         
 openssh-client                                                                1:10.0p1-7                              deb                         
 openssl                                                                       3.5.4-1~deb13u1                         deb                         
