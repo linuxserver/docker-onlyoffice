@@ -22,7 +22,7 @@ RUN \
   echo "**** install onlyoffice ****" && \
   if [ -z ${ONLYOFFICE_VERSION+x} ]; then \
     ONLYOFFICE_VERSION=$(curl -sX GET "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/onlyoffice.deb -L \
